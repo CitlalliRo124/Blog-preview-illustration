@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contenedor */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.card {
+  background-color: white;
+  width: 320px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow: 8px 8px 0 black;
+}
+
+/* Imagen */
+.card-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+/* Tag */
+.tag {
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+/* Fecha */
+.date {
+  font-size: 12px;
+  margin: 12px 0;
+}
+
+/* Título */
+.title {
+  font-size: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+/* Hover requerido por el reto */
+.title:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+/* Descripción */
+.description {
+  font-size: 14px;
+  color: hsl(0, 0%, 50%);
+  margin-bottom: 16px;
+}
+
+/* Autor */
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author img {
+  width: 32px;
+  height: 32px;
+}
+
+.author span {
+  font-size: 14px;
+  font-weight: bold;
+}
